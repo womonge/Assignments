@@ -15,8 +15,8 @@ def input_and_solve():
     c=eval(input("please enter c:"))
 
     delta=(b*b)-(4*a*c)
-    x1=-b + (delta)**(1/2)      
-    x2=-b - (delta)**(1/2)
+    x1=-b + math.sqrt(delta)     
+    x2=-b - math.sqrt(delta)
 
     print()
     print("The roots are:")
